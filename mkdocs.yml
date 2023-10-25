@@ -1,0 +1,8 @@
+nav:
+  - mlops:
+    - data: mlops/data.md
+theme: readthedocs
+plugins:
+  - mkdocstrings
+watch:
+  - .  # reload docs for any file changes
