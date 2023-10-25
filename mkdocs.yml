@@ -1,3 +1,4 @@
+site_name: Made With ML
 nav:
   - mlops:
     - data: mlops/data.md
