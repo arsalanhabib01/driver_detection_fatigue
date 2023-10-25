@@ -1,5 +1,4 @@
 nav:
-  - Home: index.md
   - mlops:
     - data: mlops/data.md
     - models: mlops/models.md
