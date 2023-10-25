@@ -1,5 +1,4 @@
 site_name: Made With ML
-site_url: https://madewithml.com/
 repo_url: https://github.com/arsalanhabib01/driver_detection_fatigue/
 nav:
   - mlops:
