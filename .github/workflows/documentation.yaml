@@ -26,7 +26,7 @@ jobs:
         run: |
           git config --global user.email "arsalan_dx@hotmail.com"
           git config --global user.name "Arsalan Habib"
-          git remote set-url origin https://github.com/arsalanhabib01/driver_detection_fatigue.git
+          git remote set-url origin https://$GH_TOKEN@github.com/arsalanhabib01/driver_detection_fatigue.git
           git push origin gh-pages --force
           
       # Deploy docs
