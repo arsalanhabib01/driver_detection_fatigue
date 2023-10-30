@@ -16,8 +16,8 @@ jobs:
         uses: aws-actions/configure-aws-credentials@v2
     #    uses: aws-actions/configure-aws-credentials@v1
         with:
-            aws-access-key-id: ${{ secrets.GH_TOKEN }}
-            aws-secret-access-key: ${{ secrets.GH_TOKEN }}
+            aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+            aws-secret-access-key: ${{ secrets.AWS_ACCESS_KEY_ID }}
             aws-region: eu-north-1 #${{ env.AWS_REGION }}
         #with:
         #  role-to-assume: arn:aws:iam::593241322649:role/github-actions-madewithml
